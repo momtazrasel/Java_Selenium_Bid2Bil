@@ -6,9 +6,12 @@ public class LoginTest extends Base {
     @Test
     public void spolLogin() throws InterruptedException {
         LoginPage login = homePage.signIn();
+        login.getPasswordOne();
+        login.getEnterButton();
         login.getUsername();
         login.getPassword();
         login.getLogin();
+
 
     }
 

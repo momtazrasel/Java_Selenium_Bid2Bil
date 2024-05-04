@@ -32,4 +32,16 @@ public class ReusableMethod {
         waitUntilElementIsVisible(locator);
         driver.findElement(locator).click();
     }
+
+    /**
+     *
+     * @param locator
+     * @return
+     * @throws InterruptedException
+     */
+    public static boolean isElementDisplayed(By locator) throws InterruptedException {
+        Thread.sleep(1000);
+        waitUntilElementIsVisible(locator);
+        return driver.findElement(locator).isDisplayed();
+    }
 }

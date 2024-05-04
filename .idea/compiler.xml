@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webDriverJava" />
         <module name="PlayGround_Tensorflow-master" />
+        <module name="Java_Selenium_Bid2Bil" />
+        <module name="webDriverJava" />
         <module name="Java_Selenium_POM" />
       </profile>
     </annotationProcessing>
