@@ -4,7 +4,7 @@ import Pages.LoginPage;
 import org.testng.annotations.Test;
 public class LoginTest extends Base {
     @Test
-    public void spolLogin() throws InterruptedException {
+    public void bidTwoBillLogin() throws InterruptedException {
         LoginPage login = homePage.signIn();
         login.getPasswordOne();
         login.getEnterButton();

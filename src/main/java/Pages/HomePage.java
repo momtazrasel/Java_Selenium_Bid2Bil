@@ -14,18 +14,11 @@ public class HomePage {
     public LoginPage signIn(){
         return new LoginPage(driver);
     }
-    public Planning planning(){
-        return new Planning(driver);
+    public SupplierPage supplier(){
+        return new SupplierPage(driver);
     }
-    public Budget budget(){
-        return new Budget(driver);
-    }
-    public PlayGround playGround(){
-        return new PlayGround(driver);
-    }
-
-    public DemoQAPage demoQAPage(){
-        return new DemoQAPage(driver);
+    public SellerPage seller(){
+        return new SellerPage(driver);
     }
 
 }
