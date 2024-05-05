@@ -21,8 +21,6 @@ public class Base {
         options.addArguments("--remote-allow-origins=*");
         System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
         driver = new ChromeDriver(options);
-//        driver.get("https://diamondbeta.strategicplanningonline.com/");
-//        driver.get("https://demoqa.com/");
         driver.get("https://bid2bill.com/my-account/");
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
