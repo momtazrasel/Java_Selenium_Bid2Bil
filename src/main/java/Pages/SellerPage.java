@@ -14,8 +14,10 @@ public class SellerPage {
     }
 
     public By becomeASeller = By.xpath("(//a[@class='woodmart-nav-link'])[14]");
+    public By sellerDashboard = By.xpath("(//a[normalize-space()='Seller Dashboard'])[1]");
 
     public void getSellerTab(){
         reusableMethod.performMouseHover(driver, becomeASeller);
+        reusableMethod.clickElement(becomeASeller);
     }
 }
